@@ -24,6 +24,20 @@ Whether you're a seasoned cloud veteran or just starting your cloud journey, the
 
 ## Problem Statement and Solution
 
+**Problem Statement:**
+Deploying a secure and scalable 3-tier architecture on cloud infrastructure is a complex task, often involving multiple manual steps, potential security vulnerabilities, and considerable time investment. Coordinating the creation of Virtual Private Clouds (VPCs), managing security groups, provisioning instances, setting up a Bastion Host, and ensuring proper configuration across the tiers can be daunting, error-prone, and resource-intensive. This process demands a solution that streamlines and automates these tasks while maintaining a strong focus on security and efficiency.
+
+**Solution:**
+Introducing the Terraform AWS VPC and EC2 GitHub repository – your comprehensive solution for effortlessly setting up a robust 3-tier architecture on Amazon Web Services (AWS) using the power of Terraform. This repository provides a streamlined and automated workflow that addresses the challenges of manual deployments and security concerns.
+
+With the provided Terraform scripts, you can create a VPC with three distinct tiers – Web, App, and DB – each residing in its private subnet, ensuring separation of concerns and enhancing security. The included AWS Security Group Terraform module defines essential inbound rules, such as allowing HTTP port 80 and SSH port 22 access from the entire internet (0.0.0.0/0), while maintaining a balance between accessibility and security.
+
+The heart of this solution lies in the automated deployment of multiple EC2 instances across the VPC's private subnets. These instances are provisioned with the necessary software and configurations, saving you valuable time and effort. Additionally, the repository facilitates the creation of a dedicated EC2 instance acting as a Bastion Host in a public subnet, enhancing your remote access capabilities.
+
+To simplify remote management and configuration, the repository incorporates a null_resource with two Terraform Provisioners – File Provisioner and Remote-exec Provisioner. These tools empower you to efficiently initialize instances with required files and execute remote commands, all seamlessly integrated into your deployment process.
+
+Say goodbye to complex manual setups and potential security gaps. This repository empowers you to architect, deploy, and manage a secure and scalable 3-tier architecture on AWS with ease, making your cloud infrastructure journey efficient, secure, and hassle-free.
+
 ---
 
 ## Terraform Commands
