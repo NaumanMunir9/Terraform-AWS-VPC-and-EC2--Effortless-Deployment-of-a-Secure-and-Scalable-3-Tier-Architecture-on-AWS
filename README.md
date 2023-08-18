@@ -1,5 +1,7 @@
 # Terraform AWS VPC and EC2: Effortless Deployment of a Secure and Scalable 3-Tier Architecture on AWS
 
+![Terraform AWS VPC and EC2 - Architecture](/architecture-diagram/YT-Thumbnail- AWS%20VPC,%20EC2,%20Bastion%20Hosts,%20Security%20Groups%20Terraform.png)
+
 ---
 
 ## Architecture Diagram
