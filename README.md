@@ -18,7 +18,7 @@ Deploying multiple EC2 instances in private subnets for your application, along 
 
 But that's not all – we take it a step further by integrating null_resource with a duo of Terraform Provisioners: the File Provisioner and the Remote-exec Provisioner. These tools give you the flexibility to initialize instances with the right configurations and execute remote commands effortlessly, saving you time and manual effort.
 
-Whether you're a seasoned cloud veteran or just starting your cloud journey, the Terraform-AWS-3Tier-VPC repository empowers you to architect, deploy, and manage a top-notch infrastructure on AWS with finesse. Let's elevate your cloud game together!
+Whether you're a seasoned cloud veteran or just starting your cloud journey, this repository empowers you to architect, deploy, and manage a top-notch infrastructure on AWS with finesse. Let's elevate your cloud game together!
 
 ---
 
